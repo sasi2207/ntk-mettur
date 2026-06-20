@@ -1,0 +1,305 @@
+// Bilingual translations for NTK Mettur site
+const t = {
+  en: {
+    party_name: "Naam Tamilar Katchi",
+    constituency_name: "Mettur Assembly Constituency",
+    tagline: "For Tamil Nation. For Mettur.",
+    nav: {
+      home: "Home", about: "About", constituency: "Constituency",
+      leadership: "Leadership", news: "News", events: "Events",
+      gallery: "Gallery", contact: "Contact", join: "Join Us",
+      membership: "Membership", volunteer: "Volunteer", complaint: "Complaint",
+      admin: "Admin"
+    },
+    home: {
+      hero_eyebrow: "Naam Tamilar Katchi — Mettur Constituency",
+      hero_title: "Rise of the Tamil Nation.",
+      hero_title_ta: "தமிழின உரிமை. மேட்டூரின் உயர்வு.",
+      hero_sub: "A movement led by people, powered by principle. Join the constituency cadre and rebuild Mettur — village by village, ward by ward.",
+      join_cta: "Become a Member",
+      learn_more: "Our Mission",
+      latest_news: "Latest News",
+      latest_news_sub: "Press releases, ground reports and party updates.",
+      upcoming_events: "Upcoming Events",
+      upcoming_events_sub: "Rallies, public meetings and community drives.",
+      leadership: "Constituency Leadership",
+      leadership_sub: "The people leading the movement in Mettur.",
+      gallery: "Glimpses from the Ground",
+      gallery_sub: "Moments from rallies, meetings and welfare drives.",
+      view_all: "View all",
+      counters: {
+        members: "Registered Members",
+        villages: "Villages Reached",
+        events: "Events Conducted",
+        complaints: "Issues Resolved",
+      },
+    },
+    about: {
+      title: "About the Party",
+      history_h: "Our History",
+      history_p: "Naam Tamilar Katchi is a Tamil nationalist political party founded with a vision to restore the rightful place of the Tamil people. Rooted in the legacy of Tamil identity, sovereignty and self-respect, our movement stands for the dignity of every Tamil household.",
+      vision_h: "Vision",
+      vision_p: "A self-respecting Tamil society where governance serves the people, the soil and the language.",
+      mission_h: "Mission",
+      mission_p: "Build cadre-led politics at the constituency level. Solve people's problems on the ground. Reclaim land, water, language and labour for Tamils.",
+      founder_h: "Founder",
+      founder_p: "Founded under the leadership of Senthamizhan Seeman — a relentless voice for the Tamil cause.",
+      principles_h: "Core Principles",
+      principles: [
+        "Tamil First — language, land and people",
+        "People-led governance, not personality politics",
+        "Zero tolerance for corruption",
+        "Social justice for every community",
+        "Ecological responsibility",
+      ],
+    },
+    constituency: {
+      title: "Mettur Constituency",
+      overview_h: "Overview",
+      overview_p: "Mettur Assembly Constituency lies in the Salem district of Tamil Nadu, known for the iconic Mettur Dam and the industrial belt along the Cauvery. Our work focuses on agriculture, drinking water, employment and Tamil-medium education.",
+      villages_h: "Villages Covered",
+      villages_p: "The constituency includes numerous panchayats and town wards across Mettur taluk.",
+      villages: ["Mettur Town", "Kolathur", "Nangavalli", "Pottaneri", "Karuppur", "Tholasampatti", "Mecheri", "Kapilamalai", "Sandiyur", "Eachampatti"],
+      plans_h: "Development Plans",
+      plans: [
+        "Clean drinking water for every household",
+        "Cauvery irrigation rights for Mettur farmers",
+        "Skill training centres for youth",
+        "Tamil-medium schools strengthening",
+        "Public health camps in rural panchayats",
+      ],
+      issues_h: "Public Issues We Are Fighting For",
+      issues: [
+        "Industrial pollution along the Cauvery",
+        "Drinking water shortage in summer months",
+        "Unemployment among Mettur youth",
+        "Farmer welfare and crop pricing",
+      ],
+      achievements_h: "Achievements",
+      achievements: [
+        "Restored drinking water access for 12 villages",
+        "Conducted 30+ free medical camps",
+        "Distributed school supplies to 4,000+ children",
+        "Led the protest against Cauvery pollution",
+      ],
+    },
+    leadership: { title: "Leadership", sub: "Our team in Mettur Constituency." },
+    news: { title: "News & Press", sub: "All updates from the constituency.", search: "Search news...", all: "All", read_more: "Read more" },
+    events: { title: "Events", sub: "Upcoming and past activities.", upcoming: "Upcoming", completed: "Completed", calendar: "Calendar" },
+    gallery: { title: "Gallery", sub: "Photos & videos from across the constituency.", all: "All", images: "Photos", videos: "Videos" },
+    membership: {
+      title: "Become a Member",
+      sub: "Join the Mettur cadre. Fill the form below to register.",
+      submit: "Submit Membership",
+      thanks: "Thank you! Your membership request has been received.",
+      fields: {
+        name: "Full Name", mobile: "Mobile Number", email: "Email",
+        gender: "Gender", dob: "Date of Birth", occupation: "Occupation",
+        address: "Address", village: "Village / Town", ward: "Ward Number", photo: "Photo (optional)"
+      },
+      genders: { male: "Male", female: "Female", other: "Other" }
+    },
+    volunteer: {
+      title: "Volunteer With Us", sub: "Lend your skills and time to the movement.",
+      submit: "Submit Volunteer Form", thanks: "Thank you! We will reach out soon.",
+      fields: { name: "Full Name", mobile: "Mobile", skills: "Skills", interest: "Area of Interest", time: "Available Time" }
+    },
+    complaint: {
+      title: "Public Complaint", sub: "Submit a complaint — we will follow it up.",
+      submit: "Submit Complaint", thanks: "Complaint received. We'll track its status.",
+      fields: { name: "Name", mobile: "Mobile", village: "Village/Ward", category: "Category", description: "Describe the issue", photo: "Photo (optional)" },
+      categories: ["Drinking Water", "Roads", "Electricity", "Health", "Education", "Sanitation", "Other"]
+    },
+    contact: {
+      title: "Contact Us", sub: "Office address, phone and email.",
+      name: "Your Name", email: "Your Email", phone: "Phone (optional)", subject: "Subject", message: "Your message", send: "Send Message",
+      thanks: "Thanks! Message received.",
+      address_h: "Constituency Office",
+      address: "Naam Tamilar Katchi, Mettur Constituency Office, Mettur, Salem District, Tamil Nadu - 636401",
+      phone_label: "Phone", email_label: "Email", social: "Social Media"
+    },
+    footer: {
+      tagline: "A people-led Tamil nationalist movement, working ward by ward across Mettur Constituency.",
+      links: "Quick Links",
+      contact: "Contact",
+      follow: "Follow Us",
+      rights: "All rights reserved.",
+      admin: "Admin"
+    },
+    admin: {
+      login_title: "Admin Login",
+      login_sub: "Sign in to manage NTK Mettur",
+      email: "Email", password: "Password", login: "Sign in",
+      dashboard: "Dashboard", members: "Members", volunteers: "Volunteers",
+      leaders: "Leaders", news: "News", events: "Events", gallery: "Gallery",
+      complaints: "Complaints", contacts: "Contact Messages", logout: "Logout",
+      donations: "Donations", settings: "Settings",
+      welcome: "Welcome back",
+      total_members: "Total Members", total_volunteers: "Total Volunteers",
+      total_events: "Total Events", total_complaints: "Total Complaints",
+      pending_complaints: "Pending Complaints", total_news: "Total News",
+      total_contacts: "Contact Messages",
+      add_new: "Add new", edit: "Edit", delete: "Delete", save: "Save", cancel: "Cancel",
+      change_status: "Change Status", reply: "Reply",
+    },
+    common: {
+      loading: "Loading…", required: "required",
+      yes: "Yes", no: "No", view: "View",
+      no_data: "No data yet."
+    }
+  },
+  ta: {
+    party_name: "நாம் தமிழர் கட்சி",
+    constituency_name: "மேட்டூர் சட்டமன்றத் தொகுதி",
+    tagline: "தமிழ் தேசத்திற்காய். மேட்டூருக்காய்.",
+    nav: {
+      home: "முகப்பு", about: "எங்களைப் பற்றி", constituency: "தொகுதி",
+      leadership: "தலைமை", news: "செய்திகள்", events: "நிகழ்வுகள்",
+      gallery: "காட்சியகம்", contact: "தொடர்பு", join: "இணைய",
+      membership: "உறுப்பினர்", volunteer: "தொண்டர்", complaint: "புகார்",
+      admin: "நிர்வாகம்"
+    },
+    home: {
+      hero_eyebrow: "நாம் தமிழர் கட்சி — மேட்டூர் தொகுதி",
+      hero_title: "தமிழின உரிமை. மேட்டூரின் உயர்வு.",
+      hero_title_ta: "தமிழின உரிமை. மேட்டூரின் உயர்வு.",
+      hero_sub: "மக்களால் வழிநடத்தப்படும், கொள்கையால் இயக்கப்படும் ஓர் இயக்கம். கிராமம் கிராமமாக, வார்டு வார்டாக மேட்டூரை மீளக் கட்டுவோம்.",
+      join_cta: "உறுப்பினராக",
+      learn_more: "எங்கள் பணி",
+      latest_news: "புதிய செய்திகள்",
+      latest_news_sub: "செய்தி வெளியீடுகள், களச் செய்திகள் மற்றும் கட்சி நிகழ்வுகள்.",
+      upcoming_events: "வரவிருக்கும் நிகழ்வுகள்",
+      upcoming_events_sub: "பேரணிகள், பொதுக் கூட்டங்கள் மற்றும் சமூகப் பணிகள்.",
+      leadership: "தொகுதி தலைமை",
+      leadership_sub: "மேட்டூர் இயக்கத்தை வழிநடத்தும் தோழர்கள்.",
+      gallery: "களக் காட்சிகள்",
+      gallery_sub: "பேரணிகள், கூட்டங்கள் மற்றும் நலப் பணிகளின் தருணங்கள்.",
+      view_all: "அனைத்தையும் காண",
+      counters: {
+        members: "உறுப்பினர்கள்",
+        villages: "கிராமங்கள்",
+        events: "நிகழ்வுகள்",
+        complaints: "தீர்க்கப்பட்ட புகார்கள்",
+      },
+    },
+    about: {
+      title: "கட்சியைப் பற்றி",
+      history_h: "வரலாறு",
+      history_p: "நாம் தமிழர் கட்சி, தமிழினத்திற்கான உரிமைகளை மீட்டெடுக்கும் நோக்கில் தோன்றிய தேசியக் கட்சி. தமிழ் அடையாளம், சுயமரியாதை, இறையாண்மை ஆகியவற்றை அடிப்படையாகக் கொண்டது.",
+      vision_h: "நோக்கம்",
+      vision_p: "மக்களுக்காய், மண்ணுக்காய், மொழிக்காய் செயல்படும் சுயமரியாதை கொண்ட தமிழ்ச் சமூகம்.",
+      mission_h: "பணி",
+      mission_p: "தொகுதி அளவில் தொண்டர் வழித் தலைமை. மக்கள் பிரச்சினைகளை களத்தில் தீர்த்தல். தமிழருக்கான நிலம், நீர், மொழி, உழைப்பு ஆகியவற்றை மீட்டெடுத்தல்.",
+      founder_h: "நிறுவனர்",
+      founder_p: "செந்தமிழன் சீமான் அவர்களின் தலைமையில் தோற்றுவிக்கப்பட்டது.",
+      principles_h: "அடிப்படைக் கொள்கைகள்",
+      principles: [
+        "தமிழே முதன்மை — மொழி, மண், மக்கள்",
+        "ஆட்சி மக்கள் வழியில், ஆளுமை வழியில் அல்ல",
+        "ஊழலுக்கு இடம் இல்லை",
+        "அனைத்து சமூகத்திற்கும் சமூக நீதி",
+        "சுற்றுச்சூழல் பொறுப்பு",
+      ],
+    },
+    constituency: {
+      title: "மேட்டூர் தொகுதி",
+      overview_h: "ஒரு பார்வை",
+      overview_p: "மேட்டூர் தொகுதி, சேலம் மாவட்டத்தில் அமைந்துள்ளது. பிரபல மேட்டூர் அணை மற்றும் காவிரிக் கரை தொழிற்பேட்டை இங்கே உள்ளன. வேளாண்மை, குடிநீர், வேலைவாய்ப்பு, தமிழ்வழிக் கல்வி ஆகியவற்றில் எங்கள் கவனம்.",
+      villages_h: "உள்ளடக்கிய கிராமங்கள்",
+      villages_p: "தொகுதியில் பல ஊராட்சிகள் மற்றும் நகர வார்டுகள் உள்ளன.",
+      villages: ["மேட்டூர் நகரம்", "கோலத்தூர்", "நாங்கவல்லி", "பொத்தனேரி", "கருப்பூர்", "தோலசம்பட்டி", "மேச்சேரி", "கபிலமலை", "சந்தியூர்", "ஈச்சம்பட்டி"],
+      plans_h: "வளர்ச்சித் திட்டங்கள்",
+      plans: [
+        "ஒவ்வொரு வீட்டுக்கும் சுத்தமான குடிநீர்",
+        "மேட்டூர் விவசாயிகளுக்கு காவிரி நீர் உரிமை",
+        "இளைஞர்களுக்கு திறன் பயிற்சி மையங்கள்",
+        "தமிழ்வழிப் பள்ளிகள் வலுப்படுத்தல்",
+        "கிராமப்புற சுகாதார முகாம்கள்",
+      ],
+      issues_h: "மக்கள் பிரச்சினைகள்",
+      issues: [
+        "காவிரிக் கரை தொழிற் மாசு",
+        "கோடைகாலத்தில் குடிநீர் பற்றாக்குறை",
+        "இளைஞர்களுக்கு வேலையின்மை",
+        "விவசாயி நலன் மற்றும் விளைபொருள் விலை",
+      ],
+      achievements_h: "சாதனைகள்",
+      achievements: [
+        "12 கிராமங்களுக்கு குடிநீர் வசதி மீட்பு",
+        "30+ இலவச மருத்துவ முகாம்கள்",
+        "4,000+ குழந்தைகளுக்கு கல்விப் பொருட்கள்",
+        "காவிரி மாசிற்கு எதிராக போராட்டம்",
+      ],
+    },
+    leadership: { title: "தலைமை", sub: "மேட்டூர் தொகுதியின் அணி." },
+    news: { title: "செய்திகள்", sub: "தொகுதியின் அனைத்து புதுப்பிப்புகள்.", search: "செய்திகளைத் தேடு...", all: "அனைத்தும்", read_more: "மேலும் படிக்க" },
+    events: { title: "நிகழ்வுகள்", sub: "வரவிருக்கும் மற்றும் முடிந்த நிகழ்வுகள்.", upcoming: "வரவிருக்கும்", completed: "முடிந்தவை", calendar: "நாட்காட்டி" },
+    gallery: { title: "காட்சியகம்", sub: "தொகுதி முழுவதிலுமிருந்து புகைப்படங்கள் மற்றும் காணொளிகள்.", all: "அனைத்தும்", images: "படங்கள்", videos: "காணொளி" },
+    membership: {
+      title: "உறுப்பினராக",
+      sub: "மேட்டூர் தொண்டரணியில் இணையுங்கள். கீழுள்ள படிவத்தை நிரப்புங்கள்.",
+      submit: "சமர்ப்பி",
+      thanks: "நன்றி! உங்கள் உறுப்பினர் விண்ணப்பம் பெறப்பட்டது.",
+      fields: {
+        name: "முழுப் பெயர்", mobile: "கைபேசி எண்", email: "மின்னஞ்சல்",
+        gender: "பாலினம்", dob: "பிறந்த நாள்", occupation: "தொழில்",
+        address: "முகவரி", village: "ஊர்/நகரம்", ward: "வார்டு எண்", photo: "புகைப்படம் (விரும்பினால்)"
+      },
+      genders: { male: "ஆண்", female: "பெண்", other: "மற்றவை" }
+    },
+    volunteer: {
+      title: "தொண்டராக",
+      sub: "உங்கள் திறமையும் நேரமும் இயக்கத்திற்கு.",
+      submit: "சமர்ப்பி", thanks: "நன்றி! விரைவில் தொடர்பு கொள்வோம்.",
+      fields: { name: "முழுப் பெயர்", mobile: "கைபேசி", skills: "திறன்கள்", interest: "ஆர்வம்", time: "கிடைக்கும் நேரம்" }
+    },
+    complaint: {
+      title: "மக்கள் புகார்",
+      sub: "உங்கள் புகாரை சமர்ப்பியுங்கள் — நாங்கள் தொடரந்து பின்தொடர்வோம்.",
+      submit: "புகார் சமர்ப்பி",
+      thanks: "புகார் பெறப்பட்டது. நிலையை கண்காணிப்போம்.",
+      fields: { name: "பெயர்", mobile: "கைபேசி", village: "ஊர்/வார்டு", category: "வகை", description: "பிரச்சினையை விவரியுங்கள்", photo: "புகைப்படம் (விரும்பினால்)" },
+      categories: ["குடிநீர்", "சாலைகள்", "மின்சாரம்", "சுகாதாரம்", "கல்வி", "தூய்மை", "பிற"]
+    },
+    contact: {
+      title: "எங்களை தொடர்புகொள்ள",
+      sub: "அலுவலக முகவரி, தொலைபேசி, மின்னஞ்சல்.",
+      name: "பெயர்", email: "மின்னஞ்சல்", phone: "தொலைபேசி", subject: "தலைப்பு", message: "உங்கள் செய்தி", send: "செய்தி அனுப்பு",
+      thanks: "நன்றி! செய்தி பெறப்பட்டது.",
+      address_h: "தொகுதி அலுவலகம்",
+      address: "நாம் தமிழர் கட்சி, மேட்டூர் தொகுதி அலுவலகம், மேட்டூர், சேலம் மாவட்டம், தமிழ்நாடு - 636401",
+      phone_label: "தொலைபேசி", email_label: "மின்னஞ்சல்", social: "சமூக ஊடகம்"
+    },
+    footer: {
+      tagline: "மேட்டூர் தொகுதி முழுவதும் வார்டு வார்டாக செயல்படும் மக்கள் வழித் தமிழ்த் தேசிய இயக்கம்.",
+      links: "விரைவு இணைப்புகள்",
+      contact: "தொடர்பு",
+      follow: "எங்களைப் பின்தொடர",
+      rights: "அனைத்து உரிமைகளும்.",
+      admin: "நிர்வாகம்"
+    },
+    admin: {
+      login_title: "நிர்வாகி நுழைவு",
+      login_sub: "NTK மேட்டூரை நிர்வகிக்க உள்நுழைக",
+      email: "மின்னஞ்சல்", password: "கடவுச்சொல்", login: "உள்நுழை",
+      dashboard: "டாஷ்போர்டு", members: "உறுப்பினர்கள்", volunteers: "தொண்டர்கள்",
+      leaders: "தலைவர்கள்", news: "செய்திகள்", events: "நிகழ்வுகள்", gallery: "காட்சியகம்",
+      complaints: "புகார்கள்", contacts: "தொடர்பு செய்திகள்", logout: "வெளியேறு",
+      donations: "நன்கொடைகள்", settings: "அமைப்புகள்",
+      welcome: "மீண்டும் வரவேற்கிறோம்",
+      total_members: "மொத்த உறுப்பினர்கள்", total_volunteers: "மொத்த தொண்டர்கள்",
+      total_events: "மொத்த நிகழ்வுகள்", total_complaints: "மொத்த புகார்கள்",
+      pending_complaints: "நிலுவை புகார்கள்", total_news: "மொத்த செய்திகள்",
+      total_contacts: "தொடர்பு செய்திகள்",
+      add_new: "புதியதை சேர்", edit: "திருத்து", delete: "நீக்கு", save: "சேமி", cancel: "ரத்து",
+      change_status: "நிலை மாற்று", reply: "பதில்",
+    },
+    common: {
+      loading: "ஏற்றுகிறது…", required: "கட்டாயம்",
+      yes: "ஆம்", no: "இல்லை", view: "காண",
+      no_data: "தரவு இல்லை."
+    }
+  }
+};
+
+export default t;

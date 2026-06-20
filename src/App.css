@@ -1,0 +1,61 @@
+.App { min-height: 100vh; }
+
+
+
+.ntk-brand {
+  text-decoration: none;
+  line-height: 1.2;
+  align-items: center;
+}
+
+.ntk-title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #c00000;                 /* Dark Red */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow:
+    -1px -1px 0 #ffd700,
+     1px -1px 0 #ffd700,
+    -1px  1px 0 #ffd700,
+     1px  1px 0 #ffd700,
+     0 3px 8px rgba(0,0,0,0.3);
+}
+
+.ntk-slogan {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #ffd700;                 /* Yellow */
+  background: #c00000;            /* Red Background */
+  padding: 2px 12px;
+  border-radius: 20px;
+  border: 1.5px solid #ffd700;
+  margin-top: 4px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .ntk-brand {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin: 0 auto;
+  }
+
+  .ntk-title {
+    font-size: 0.95rem;
+  }
+
+  .ntk-slogan {
+    font-size: 0.7rem;
+  }
+}
